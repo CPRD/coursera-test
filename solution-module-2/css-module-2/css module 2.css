@@ -3,11 +3,20 @@
 	font-family: Verdana, Arial, sans-serif;
 }
 
+html {
+	display: block;
+}
+
+div {
+	display: block;
+}
+
 .row {
 	width:100%;
 }
 
 h1 {
+	display: block;
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -36,11 +45,13 @@ h1 {
 	border-width: 2px;
 	padding: 3px 23px 5px 25px;
 	text-align: center;
+	display: block;
 }
 
 p {
 	padding: 20px 20px 8px 20px;
 	color: #000;
+	display: block;
 }
 
 /*Large device*/
